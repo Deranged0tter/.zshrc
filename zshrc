@@ -267,7 +267,7 @@ TRAPALRM() {
 }
 
 # Custom aliases
-alias xsstrike='python /home/toastr/Downloads/XSStrike/xsstrike.py'
+alias xsstrike='python /home/otter/Downloads/XSStrike/xsstrike.py'
 alias v='nvim'
 alias sv='sudo nvim'
 alias ping='ping -c 5'
@@ -276,14 +276,14 @@ alias serv='python -m http.server'
 alias diff='colordiff'
 alias gh='history | grep'
 alias hvpn='sudo openvpn /opt/vpns/lab_deranged0tter.ovpn'
-alias havpn='sudo openvpn /home/toastr/vpns/academy-regular.ovpn'
+alias havpn='sudo openvpn /home/otter/vpns/academy-regular.ovpn'
 alias msfc='msfconsole'
 alias msfv='msfvenom'
 alias ps='ps aux'
 alias apt='sudo apt'
 alias root='sudo -i'
 alias pc4='proxychains4 -q'
-alias 'nmapall'='nmap -p-'
+alias 'nmapall'='nmap -T4 -p- -sC -sV'
 alias pg='ping google.com -c 5'
 alias p8='ping 8.8.8.8 -c 5'
 alias :q='exit'
@@ -294,6 +294,9 @@ alias rustscan='sudo docker run -it --rm --name rustscan rustscan/rustscan:2.1.1
 alias c='clear'
 alias tx='tmux'
 alias t='tmux'
+alias g='googler'
+alias ip4='curl https://ipv4.icanhazip.com'
+alias ip6='curl https://ipv6.icanhazip.com'
 
 # go aliases
 alias gor='go run .'
